@@ -16,7 +16,7 @@ float getGrade()
 
 float averageGrade()
 {
-    float grade = getGrade();
+    double grade = getGrade();
     float total = 0.0;
     int counter = 0;
 
@@ -66,3 +66,4 @@ float avgGrade(int classSize)
       return grade / classSize;
    else return 0.0;
 }
+
